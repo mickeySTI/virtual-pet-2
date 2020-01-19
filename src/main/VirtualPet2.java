@@ -38,12 +38,11 @@ public class VirtualPet2 {
 	}
 
 	public void feed() {
-		
 		this.hunger--;
 		
 		if(this.hunger < 0) {
 			this.hunger = 0;
-		}
+		}	
 		
 	}
 
